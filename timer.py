@@ -7,9 +7,9 @@ l.grid(pady=5,row=0, columnspan=3)
 global hour
 global minute
 global second
-global flag			#flag = 1 stop,   flag la de kiem soat ham tang giam?
+global flag		#flag = 1 stop,   flag la de kiem soat ham tang giam?
 global start    	#start la de kiem soat viec pause/stop
-global check_begin  # de phong tranh viec no cu lay e1.get(),e2.get(),e3.get() lien tuc, 
+global check_begin  	# de phong tranh viec no cu lay e1.get(),e2.get(),e3.get() lien tuc, 
 start = False		# o day ta chi muon lay e1.get(),e2.get(),e3.get() 1 lan dau tien khi bam nut thoi
 check_begin = False
 
